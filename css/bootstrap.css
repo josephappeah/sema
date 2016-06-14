@@ -3012,6 +3012,8 @@ select[multiple].input-lg {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
+  -webkit-filter:grayscale(0%) !important;
+  filter: grayscale(0%) !important;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
   cursor: pointer;
